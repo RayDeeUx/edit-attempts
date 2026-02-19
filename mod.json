@@ -1,5 +1,5 @@
 {
-  "geode": "4.10.0",
+  "geode": "4.10.2",
   "gd": {
     "win": "2.2074",
     "mac": "2.2074",
@@ -14,11 +14,7 @@
   "resources": {
     "sprites": ["resources/editAttemptsButton.png"]
   },
-  "dependencies": [
-    {
-      "id": "geode.node-ids",
-      "version": "1.17.0",
-      "importance": "required"
-    }
-  ]
+  "dependencies": {
+    "geode.node-ids": ">=1.17.0"
+  }
 }
